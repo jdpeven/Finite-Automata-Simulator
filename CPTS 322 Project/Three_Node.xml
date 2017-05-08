@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Automata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Alphabet>
+    <Letter>48</Letter>
+    <Letter>49</Letter>
+    <Letter>50</Letter>
+  </Alphabet>
+  <States>
+    <State>Q0</State>
+    <State>Q1</State>
+    <State>Q3</State>
+  </States>
+  <InitialState>Q0</InitialState>
+  <FinalStates>
+    <FinalState>Q2</FinalState>
+  </FinalStates>
+  <Transitions>
+    <Transition>
+      <Start>Q0</Start>
+      <Input>48</Input>
+      <End>Q1</End>
+    </Transition>
+    <Transition>
+      <Start>Q1</Start>
+      <Input>49</Input>
+      <End>Q2</End>
+    </Transition>
+  </Transitions>
+  <Password>PASSWORD</Password>
+</Automata>
